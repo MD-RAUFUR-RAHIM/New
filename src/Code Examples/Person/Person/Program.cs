@@ -36,6 +36,9 @@ public class Progra
         string name = Console.ReadLine();
         name = name.Length > 10 ? name.Substring(0,10) : name;
         Console.WriteLine(name);
+        int z = 11;
+        z = z > 10 ? (z<100?z++: z) : z;
+        Console.WriteLine(z);
     }
 }
 /*0=0
