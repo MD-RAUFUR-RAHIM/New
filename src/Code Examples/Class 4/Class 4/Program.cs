@@ -103,7 +103,7 @@ for (int n = 0; n < jaggedArray.Length; n++)
     {
         for(int j=0;j<x1.GetLength(1);j++)
         {
-
+            Console.WriteLine("ki");
         }
     }
 }
